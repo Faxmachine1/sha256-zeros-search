@@ -12,8 +12,8 @@ struct Args {
 }
 
 fn main() {
-    let cli_args = Args::parse(); // {n: 0, f: 0}
-    let desired = "0".repeat(cli_args.n); // 0000
+    let cli_args = Args::parse();
+    let desired = "0".repeat(cli_args.n);
     
     let mut i = 0;
     let mut found = 0;
