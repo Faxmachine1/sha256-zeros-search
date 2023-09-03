@@ -2,7 +2,7 @@
 
 Require develop a console application that will search integers starting from 1, calculate a sha256 hash for each of the numbers, and output the hash and the original number to the console if the hash digest (character representation of the hash) ends with N characters zero. The F parameter defines how many hash values the command should find.
 
-task from https://jl.pyshop.ru/tasks/rust-dev/
+> task from https://jl.pyshop.ru/tasks/rust-dev/
 
 
 
