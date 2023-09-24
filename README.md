@@ -1,8 +1,8 @@
-# SHA256 search for zeros at the end of a string
+# SHA256 Поиск нулей на конце хэша
 
-Require develop a console application that will search integers starting from 1, calculate a sha256 hash for each of the numbers, and output the hash and the original number to the console if the hash digest (character representation of the hash) ends with N characters zero. The F parameter defines how many hash values the command should find.
+Требуется разработать консольное приложение, которое будет перебирать целые числа, начиная с 1, вычислять для каждого из них хэш sha256 и выводить на консоль хэш и исходное число, если хэш-дайджест (символьное представление хэша) оканчивается на N символов нулем. Параметр F определяет, сколько значений хэша должна найти команда.
 
-> task from https://jl.pyshop.ru/tasks/rust-dev/
+> Задание из https://jl.pyshop.ru/tasks/rust-dev/
 
 
 
