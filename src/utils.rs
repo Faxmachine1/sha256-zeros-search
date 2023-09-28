@@ -6,5 +6,5 @@ pub fn generate_sha256(number: u32) -> String {
     
     context.update(&number_bytes.as_bytes());
 
-    format!("{:02x?}", context.finish())
+    hex::encode(context.finish())
 }
